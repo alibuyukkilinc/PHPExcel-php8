@@ -51,6 +51,7 @@ if (!defined('CALCULATION_REGEXP_CELLREF')) {
  */
 class PHPExcel_Calculation
 {
+    public $_debugLog;
     /** Constants                */
     /** Regular Expressions        */
     //    Numeric operand
